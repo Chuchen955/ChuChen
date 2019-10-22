@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #F5F5F5;
+}
+header,section,footer{
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.fz_c{
+	font-size: 12px;
+	color: #666;
+}
+ul{
+	list-style: none;
+}
+.hui{
+	color:#666;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background: black;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+header>div{
+	width: 1200px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header>div>img{
+	float: left;
+}
+header>div>div{
+	width: 740px;
+	height: 30px;
+	float: right;
+}
+header>div>div nav{
+	float: left;
+}
+header>div>div nav:nth-child(1){
+	width: 550px;
+	height: 30px;
+}
+header>div>div nav:nth-child(1) a{
+	margin-left: 40px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+}
+header>div>div nav a:hover{
+	color: #e82c07;
+}
+header>div>div nav:nth-child(2){
+	width: 150px;
+	height: 30px;
+	text-align: right;
+	color: white;
+}
+#red{
+	font-size: 14px;
+	color: red;
+}
+#tou{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background: url(../img/nubia-syb-all.png) 0 -30px;
+	vertical-align: middle;
+}
+#one{
+	margin-top: 60px;
+	width: 100%;
+	height: 860px;
+	position: relative;
+}
+#one>div:nth-child(1){
+	width: 100%;
+	height: 121px;
+	background: white;
+	position: absolute;
+	z-index: 1;
+}
+#one>div ul{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 75px;
+	box-sizing: border-box;
+}
+ul:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+#one>div ul li{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+#one>div ul li:hover{
+	border-bottom: #FF0000 solid 2px;
+}
+#one>div ul li img{
+	width: 120px;
+	height: 80px;
+}
+#one>div:nth-child(2){
+	text-align: center;
+	height: 600px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+#one>div:nth-child(2)>img{
+	margin: 0 -100%;
+	height: 100%;
+}
+#one div:nth-child(2) nav{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	bottom: 26px;
+	right: 29%;
+	display: flex;
+	justify-content: space-around;
+}
+#one div:nth-child(2) nav a{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: #666666;
+	border-radius: 50%;
+	transition: all 2s;
+	box-sizing: border-box;
+}
+#one div:nth-child(2) nav a:hover{
+	border: #FF0000 solid 1px;
+	transition: all 2s;
+}
+#one>ul{
+	margin: 0 auto;
+	width: 1200px;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+#one>ul li{
+	width: 396px;
+	height: 250px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	background: #000000;
+}
+#one>ul li:hover img{
+	opacity: 0.8;
+}
+.mb{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	height: 155px;
+	width: 100%;
+}
+#one>ul li:hover .mb{
+	display: inline-block;
+}
+#one>ul li:hover .mb img{
+	animation: bg 3s linear;
+}
+.mb p{
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+}
+@keyframes bg{
+	0%{
+		transform: scale(1);
+	}
+	20%{
+		transform: scale(0.7);
+	}
+	40%{
+		transform: scale(1.2);
+	}
+	60%{
+		transform: scale(0.9);
+	}
+	80%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+#one>ul li>img{
+	margin: 0 -100%;
+	height: 100%;
+}
+#two{
+	width: 1200px;
+	height: 1883px;
+}
+#two>div{
+	padding-top: 40px;
+	text-align: center;
+}
+#two>div>h1{
+	font-size: 35px;
+	color: #333;
+	margin-bottom: 20px;
+}
+#two>div>p{
+	margin-bottom: 30px;
+}
+#two>div>p a{
+	color: #e8340e;
+}
+.zst_1{
+	height: 1200px;
+	width: 100%;
+}
+.zst_1 li{
+	text-align: center;
+	float: left;
+	background: white;
+	position: relative;
+	overflow: hidden;
+}
+.zst_1 li div{
+	position: relative;
+	z-index: 2;
+}
+.zst_1 li:nth-child(1) div{
+	width: 200px;
+	position: absolute;
+	right: 120px;
+	bottom: 180px;
+}
+h4{
+	font-size: 20px;
+	color: #000000;
+}
+.zst_1 li div p:nth-child(2){
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.fz_black{
+	font-size: 16px;
+	color: black;
+}
+.fz_black{
+	display: inline-block;
+	width: 108px;
+	height: 32px;
+	line-height: 32px;
+	border: #666666 solid 1px;
+	border-radius: 10px;
+}
+.fz_black:hover{
+	background: #000000;
+	color: white;
+}
+.zst_1 li img{
+	margin: 0 -100%;
+	width: 100%;
+	z-index: 1;
+}
+.zst_1 li:nth-child(1){
+	width: 1200px;
+	height: 395px;
+	margin-bottom: 10px;
+}
+.zst_1 li:nth-child(1) img{
+	margin-top: 60px;
+	margin-right: -1000px;
+	transition: all 2s ;
+}
+.zst_1 li:nth-child(1):hover img{
+	margin-right: -1200px;
+	transition: all 2s ;
+}
+.zst_1 li:nth-child(2){
+	width: 395px;
+	height: 795px;
+	margin-right: 10px;
+}
+.zst_1 li:nth-child(2)>img{
+	transition: all 1s;
+}
+.zst_1 li:nth-child(2)>img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.zst_1 li:nth-child(3){
+	width: 795px;
+	height: 390px;
+	margin-bottom: 10px;
+}
+.zst_1 li:nth-child(3)>img{
+	transition: all 1s;
+	margin-right: -1100px;
+}
+.zst_1 li:nth-child(3)>img:hover{
+	margin-right: -800px;
+	transition: all 1s;
+}
+.zst_1 li:nth-child(4){
+	width: 390px;
+	height: 395px;
+	margin-right: 10px;
+}
+.zst_1 li:nth-child(4)>img{
+	transition: all 1s;
+}
+.zst_1 li:nth-child(4)>img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.zst_1 li:nth-child(5){
+	width: 395px;
+	height: 395px;
+}
+.zst_1 li:nth-child(5)>img{
+	transition: all 1s;
+}
+.zst_1 li:nth-child(5)>img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.zst_2{
+	width: 1200px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.zst_2 li{
+	width: 295px;
+	background: white;
+	text-align: center;
+	overflow: hidden;
+}
+.zst_2 li img{
+	margin: 0 -100%;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.zst_2 li p{
+	position: relative;
+	z-index: 2;
+}
+.zst_2 li:nth-child(1)>img{
+	transition: all 1s;
+}
+.zst_2 li:nth-child(1)>img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.zst_2 li:nth-child(2)>img{
+	transition: all 1s;
+}
+.zst_2 li:nth-child(2)>img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.zst_2 li:nth-child(3)>img{
+	transition: all 1s;
+}
+.zst_2 li:nth-child(3)>img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.zst_2 li:nth-child(4)>img{
+	transition: all 1s;
+}
+.zst_2 li:nth-child(4)>img:hover{
+	transform: scale(1.1);
+	transition: all 1s;
+}
+footer{
+	width: 1200px;
+	height: 396px;
+	padding-top: 40px;
+}
+footer hr{
+	color: #666;
+}
+footer>div{
+	margin-left: 100px;
+	position: relative;
+}
+footer>div>p:nth-child(1){
+	text-align: left;
+	margin: 40px 0;
+	display: inline-block;
+}
+.d{
+	font-size: 10px;
+	line-height: 30px;
+	color: #666666;
+}
+footer div>p img{
+	vertical-align: middle;
+}
+.lx:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.lx ul{
+	width: 200px;
+	float: left;
+}
+.lx ul li>h5{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+}
+.lx ul li>a{
+	line-height: 20px;
+	font-size: 12px;
+	color: #666;
+}
+.sh{
+	float: left;
+	width: 650px;
+	height: 36px;
+	clear: both;
+}
+.sh li{
+	float: left;
+	padding: 10px;
+	color: #666666;
+}
+.sh li:nth-child(1){
+	padding-left: 0;
+}
+.sh li:nth-child(9){
+	padding-right: 0;
+}
+.sh li a{
+	font-size: 10px;
+	color: #666666;
+	padding-right: 10px;
+}
+.Rx{
+	float: left;
+	width: 395px;
+	margin-left: 50px;
+	height: 36px;
+	padding-top: 7px;
+}
+.Rx li{
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+}
+.Rx li:nth-child(1){
+	background: url(../img/nubia-syb-all.png) -246px 0;
+}
+.Rx li:nth-child(1):hover{
+	background: url(../img/nubia-syb-all.png) -246px -30px;
+}
+.Rx li:nth-child(2){
+	background: url(../img/nubia-syb-all.png) -186px 0;
+}
+.Rx li:nth-child(2):hover{
+	background: url(../img/nubia-syb-all.png) -186px -30px;
+}
+.Rx li:nth-child(3){
+	background: url(../img/nubia-syb-all.png) -126px 0;
+}
+.Rx li:nth-child(3):hover{
+	background: url(../img/nubia-syb-all.png) -126px -30px;
+}
+.Rx li:nth-child(4){
+	background: url(../img/nubia-syb-all.png) -156px 0;
+}
+.Rx li:nth-child(4):hover{
+	background: url(../img/nubia-syb-all.png) -156px -30px;
+}
+.Rx span{
+	height: 30px;
+	width: 235px;
+	font-size: 20px;
+	color: #A6ABAE;
+}
